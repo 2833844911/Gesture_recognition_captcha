@@ -4,7 +4,7 @@
 
 原图片 和 标注图片 分别保存在imgs/target和imgs/label
 
-启动main.py 运行脚本训练
+启动main.py 运行脚本训练  运行失败 可以把 torch.permute(image, (2, 0, 1)) 替换为torch.permute(image, (0, 1,2))
 
 test.py 查看结果 需要注意opencv版本
 运行失败可以
