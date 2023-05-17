@@ -6,7 +6,7 @@
 
 启动main.py 运行脚本训练
 
-test.py 查看结果
+test.py 查看结果 需要注意opencv版本
 
 使用EISeg工具去标注
 
