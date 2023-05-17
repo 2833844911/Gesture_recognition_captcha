@@ -7,6 +7,11 @@
 启动main.py 运行脚本训练
 
 test.py 查看结果 需要注意opencv版本
+运行失败可以
+torch.permute(transform, (2, 0, 1))
+这里交换维度 改为
+torch.permute(transform, (0, 1, 2))
+
 
 使用EISeg工具去标注
 
